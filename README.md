@@ -1,4 +1,5 @@
 # 🩸 HEMO-AI
+
 🔬 Overview
 
 HEMO-AI is a deep learning framework for quantitative prediction of hemoglobin (Hb) and hematocrit (Hct) from time-series blood spot images.
@@ -40,25 +41,29 @@ cd HEMO-AI
 
 3. Create a Virtual Environment (Optional but Recommended)
 
-Install venv: sudo apt-get install python3-venv
+Install venv 
+sudo apt-get install python3-venv
 
-Create a virtual environment: python3 -m venv <venv_name>
+Create a virtual environment 
+python3 -m venv <venv_name>
 
-Activate the virtual environment: source ./<venv_name>/bin/activate
+Activate the virtual environment 
+source ./<venv_name>/bin/activate
 
 4. Install Required Packages
-
 pip install -r requirements.txt
 
 
 📁 Project Structure
+
 HEMO-AI/
-├── config.py          # Central configuration file
-├── model.py           # DynamicViT + RNN architecture
-├── train.py           # Training pipeline
-├── test.py            # Evaluation / inference pipeline
-├── main.py            # End-to-end execution script
-├── requirements.txt   # Python dependencies
-└── README.md
+
+config.py          # Central configuration file
+model.py           # DynamicViT + RNN architecture
+train.py           # Training pipeline
+test.py            # Evaluation / inference pipeline
+main.py            # End-to-end execution script
+requirements.txt   # Python dependencies
+README.md
 
 
