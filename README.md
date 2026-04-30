@@ -1,4 +1,4 @@
-# 🩸 HEMO-AI
+# 🩸 HemoLens
 
 🔬 Overview
 
